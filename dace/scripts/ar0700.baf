@@ -3,7 +3,6 @@
 // --------------------------------------------
 // Spawn Dace
 IF
-    Global("chapter","GLOBAL",1)
     Global("T#DaceExists","GLOBAL",0)
     LevelLT(Player1,440000)
 THEN
@@ -13,7 +12,6 @@ THEN
 END
 
 IF
-    Global("chapter","GLOBAL",1)
     Global("T#DaceExists","GLOBAL",0)
     LevelGT(Player1,439999)
 THEN
