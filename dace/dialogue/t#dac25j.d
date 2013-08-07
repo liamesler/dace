@@ -57,7 +57,7 @@ END
 
 
 //Melissan obligatory trash-talk
-INTERJECT_COPY_TRANS2 FINMEL01 7 T#DMelEnd
+INTERJECT_COPY_TRANS FINMEL01 7 T#DMelEnd
 == T#DAC25J IF ~InParty("T#Dace") !StateCheck("T#Dace",CD_STATE_NOTVALID)~ THEN
 ~You psychotic, ambitious—oh, for cryin' out—forget it.  I'm too damn sick of all of this to even come up with anything I feel like sayin' to this nutcase right now.~ [t#dac668]
 == FINMEL01 ~Watch your tongue, bounty hunter. You will pay for your insults!~
