@@ -637,7 +637,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("T#DaceJToBSpiders","GLOBAL",3)
-    Calm()
+    Calm(Myself)
 END
 
 
